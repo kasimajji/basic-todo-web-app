@@ -5,8 +5,8 @@ todos = functions.get_todos()
 
 
 def add_todo():
-    todo = st.session_state["new_todo"] + "\n"
-    todos.append(todo)
+    todo_1 = st.session_state["new_todo"] + "\n"
+    todos.append(todo_1)
     functions.write_todos(todos)
 
 
